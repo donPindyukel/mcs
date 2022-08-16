@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
+.header a {
+    text-decoration: none;
+    display: block;
+}
+
+.header-text {
+    color: #E50043;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header ul li:not(:last-child) {
+    margin-right: 25px;
+}
+
+.hero {
+    height: 950px;
+    background: url('images/evian_origins_logo.jpg') 100% no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-style: normal;
+    font-size: 100px;
+}
+
+.content-block {
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    width: 1040px;
+    height: 280px;
+    margin: 150px auto;
+    padding: 24px;
+}
+
+.text {
+    font-size: 25px;
+    color: #000;
+}
+
+.products-block {
+    width: 1040px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.product-item img {
+    margin-bottom: 48px;
+}
+
+.product-volume, .product-name   {
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.text-block {
+    width: 750px;
+}
+
+.product img {
+    margin-left: 80px;
+}
+
+.text-block .title {
+    margin-bottom: 20px;
+}
+
+.product-list-info {
+    list-style: none;
+    margin:  0;
+    padding: 0;
+}
+
+.footer {
+    padding: 50px;
+    background: #F8BFC7;
+}
+
+.copyright {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+}
